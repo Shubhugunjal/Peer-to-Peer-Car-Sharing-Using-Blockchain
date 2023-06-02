@@ -1,0 +1,78 @@
+{
+  "name": "integrated-cryptridez",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@react-frontend-developer/buffers": "^2.0.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "bops": "^1.0.1",
+    "buffer": "^6.0.3",
+    "buffer-browserify": "^0.2.5",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "ethereumjs-util": "^7.1.5",
+    "firebase": "^9.21.0",
+    "google-maps-react": "^2.0.6",
+    "identicon": "^3.0.1",
+    "identicon.js": "^2.3.3",
+    "ipfs-http-client": "^48.2.2",
+    "mdbreact": "^5.1.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0",
+    "simple-login-form": "^1.1.6",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^0.2.4",
+    "web3": "^1.6.1",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/register": "^7.16.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "css-loader": "^6.5.1",
+    "sass": "^1.62.1",
+    "style-loader": "^3.3.1"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
+  }
+}
