@@ -1,0 +1,91 @@
+.NavBar{
+    height: 100vh;
+    // width: 20vw;
+
+    .nav{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // width: 107%;
+
+        .profile{
+            width: 105%;
+            text-align: center;
+            margin-top: 2rem;
+            border-bottom: 1px solid #0a1d73;
+            img{
+                width: 75%;
+                border-radius: 150%;
+                margin-bottom: 2rem;
+                border: 10px solid #c2d8e2;
+
+            }
+        }
+
+        .nav-items{
+            width: 100%;
+            margin-bottom: 250px;
+            .nav-item{
+                list-style: none;
+                text-align: center;
+
+                .crypttitle{
+                    display:inline-block;
+                    text-align: center;
+                    margin-left: 5rem;
+                }
+
+                a{
+                    text-decoration: none;
+                    font-size: 2.5rem;
+                    color: inherit;
+                    display: block;
+                    padding: .5rem 0;
+                    position: relative;
+                    margin-bottom: 20px;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: .4rem;
+                        height: 90%;
+                        background-color: #0381ff33;
+                        transform-origin: bottom;
+                        transform: scale(0);
+                            overflow-x: hidden;
+                        transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.35);
+                    }
+
+                    &:hover::before{
+                        width: 100%;
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+
+        .footer{
+            width: 100%;
+            border-top: 1px solid #2e344e;
+
+            p{
+                font-size: 1.9rem;
+                text-align: center;
+                padding: 1rem 0;
+
+            }
+        }
+    }
+}
+
+.active{
+    background-color: #037FFF;
+}
+
+
+// .active{
+//     background-color: #600a26;
+// }

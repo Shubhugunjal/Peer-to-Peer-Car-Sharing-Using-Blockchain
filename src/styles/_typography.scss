@@ -1,0 +1,110 @@
+.HomePage{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+.iframe{
+    // margin-left: 1rem;
+        height: 48rem;
+} 
+.hero-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 8rem;
+    margin-left: 13%;
+    span{
+        color: #037fff;
+    //    color: #1f1e1e   ;
+
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-left: 13%;
+
+
+}
+.container {
+    margin-left: 8rem;
+    margin-top: 25%;
+    background-color: #10121B;
+    background-image: url(../img/dots.svg);
+    position: relative;
+        
+    .contact-form {
+      max-width: 200rem;
+      .contact-inputs {
+        display: flex;
+        flex-direction: column;
+        input[type="submit"] {
+          cursor: pointer;
+          transition: all 0.2s;
+     
+        }
+      }
+    }
+}
+.contact-short {
+    max-width: 37vw;
+    margin: auto;
+    transform: translateY(1%);
+  }
+  .contact-short-btn {
+    justify-self: end;
+    align-self: center;
+  }
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+           font-size: 2.8rem;
+           color: #ffffff;
+           transition: all .4s ease-in-out;
+        }
+        .fb:hover{  
+            color: blue;
+        }
+        .gh:hover{
+            color: rgba(212, 45, 212, 0.788);
+        }
+        .yt:hover{
+            color: red;
+        }
+        .iconUser{
+            width:20px;
+            height:20px;
+            background-color:#004A3E;
+            float:left;
+            padding:4% 4% 4% 4%;
+            margin-bottom:4%;
+            background-repeat:no-repeat;
+             background-image:url(https://cdn4.iconfinder.com/data/icons/font-awesome-2/2048/f007-32.png);
+            background-position:center;
+            border:1px solid #ccc;
+          }
+        
+    }
+
+   
+}
+.footers{
+    width: 143%;
+    margin-left: 8rem;
+
+    background-color: #10121B;
+    background-image: url(../img/dots.svg);
+    position: relative;
+    p{
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+}
