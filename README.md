@@ -15,25 +15,21 @@ The proposal of a decentralized car-sharing system model is to secure payment au
 
 **Project Flow:**
 
-**Rider Panel**
-
 •	Dashboard
-•	Registration
-•	Login
-•	Register Ride
-•	List of Reserved Ride
+
+•	Rider Registration/Login
+
+•	Driver Registration/Login
+
+•	Rider Sends Ride Request to Driver
+
+•	Driver Accepts 
+
 •	Payment Process
 
-**Driver Panel**
 
-•	Dashboard
-•	Registration
-•	Login
-•	View Ride Request
 
-•	Approved Request
 
-•	Payment Process
 
 
 
