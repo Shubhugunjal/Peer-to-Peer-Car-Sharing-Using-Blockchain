@@ -6,7 +6,9 @@ Proposes of decentralized car-sharing system model is to secure payment authenti
 •	Node.js > 14 and npm (Recommended: Use nvm)
 •	VS Code IDE
 •	**MetaMask**: https://metamask.io/ ,  It is a browser extension that allows users to manage their Ethereum accounts
+
 •	**Firebase**: Information about registering and logging users is stored in the Firebase database.
+
 •	**Ganache** : https://trufflesuite.com/ganache/, It provides pre-funded test accounts that can be used to add dummy ethers to MetaMask for transactions with truffle environment, https://trufflesuite.com/
 
 **Project Flow:**
