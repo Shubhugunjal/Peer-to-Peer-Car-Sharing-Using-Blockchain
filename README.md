@@ -3,6 +3,7 @@ Blockchain is considered a trusted distributed ledger that ensures the decentral
 The proposal of a decentralized car-sharing system model is to secure payment authentication  using blockchain to guarantee the security and integrity of information.
 
 **Prerequisites**
+
 •	Node.js > 14 and npm (Recommended: Use nvm)
 
 •	VS Code IDE
